@@ -96,43 +96,14 @@
       </div>
 
 
-
-     <!---------------------------------ABOUT SECTION----------------------------------------------------------->
+          <!---------------------------------ABOUT SECTION----------------------------------------------------------->
     <section class="about">
        
         <div class="image">
             <img src="booking.png" alt=" ">
         </div>
-        <div class="ctn">
-            <h3>Why choose us</h3>
-            <p>A great quote can transport you to a time or place in the blink of an eye. And. 
-                Whether you’re exploring your own city or an unfamiliar destination in any of the four corners</p>
-        <p>A great quote can transport you to a time or place in the blink of an eye. And Whether you’re exploring your own city or an unfamiliar destination in any of the four corners</p>
-            <div class="icon-ctn">
-                <div class="icons">
-                <i class="fas fa-map"></i>
-                <span>Top Destinations</span>
-            </div>
-           
-            <div class="icons">
-                <i class="fas fa-hand-holding-usd"></i>
-                <span>Affordable price</span>
-            </div>
-            <div class="icons">
-                <i class="fas fa-headset"></i>
-                <span>24/7 guide services</span>
-            </div>
-        </div>
-        <div class="btn1"><a href="index.html"><button>BACK</button></a></div>
         
       </section>
-      <div class="footer">
-        <h2>About Us</h2>
-    <p>123 Fifth Avenue ,NY10106,GOKAK,INDIA|PHONE:800-123-456|Email:sas154@gmail.com</p>
-    <p>COpyright@2023 Outdoor SAS</p>
-      </div>
-      
-      
         
 </body>
 <style>
@@ -159,57 +130,6 @@
         flex-wrap: wrap;
         gap:3rem;
 }
-.about .image
-{
-    flex: 1 1  25rem;
-    
-}
-.about .image img
-{
-    width: 100%;
-    padding-top: 5rem;
-    margin-left: 2rem;
-}
-.about .ctn
-{
-    flex: 1 1  42rem;
-    text-align: center; 
-}
-.about .ctn h3
-{
-font-size: 3rem;
-color:violet;
-}
-.about .ctn p{
-    font-size: 1.5rem;
-color:rgba(0, 0, 0, 0.842);
-}
-.about .ctn .icon-ctn
-{
-    margin-top: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap:1.5rem;
-    align-items: flex-end;
-}
-.about .ctn .icon-ctn .icons
-{
-    background: lightgrey;
-    padding: 1rem;
-   
-    
-}
-.about .ctn .icon-ctn .icons i{
-    font-size: 4rem;
-    margin-bottom: 1rem;
-    color: blueviolet;
-}
-.about .ctn .icon-ctn .icons span
-{
-    font-size: 1.5rem;
-    display: block;
-}
-
 .btn1
     {
         
@@ -229,29 +149,298 @@ color:rgba(0, 0, 0, 0.842);
         font-weight: bold;
     }
  
-/*----------footer---------*/
-.footer
+    .about
+    {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap:3rem;
+}
+.about .image
 {
-    width:88.1%;
-    height: 115px;
-    padding: 30px 90px;
-    margin: 0;
-    background: #484872;
-    text-align: center;
+    flex: 1 1  25rem;
+    
 }
-.footer p
+.about .image img
 {
-    color: whitesmoke;
-    margin-right: 15rem;
-    padding: 25px auto;
-	margin-left: 15rem;
+    width: 75%;
+    padding-top: 5rem;
+    margin-left: 2rem;
 }
-.footer h2{
-    color: whitesmoke;
-    text-align: center;
-    margin-right: 15rem;
-	margin-left: 15rem;
+
+
+
+/* Responsive Media Query */
+@media (max-width: 1190px)
+{
+    .heading
+    {
+       padding: 0px 5px 10px 8px;
+       font-size: 5px;
+    }
+    .heading h1{
+        font-size: 60px;
+        color: white;
+        padding: 0px 5px 10px 15px;
+        text-shadow:var(--text-shadow);
+    }
+    .card
+    {
+        margin:0px;
+        padding: 20px 30px 10px 30px;
+    }
+
+
+.about .image img
+{
+    width: 100%;
+    padding: 20px 0px 10px 0px;
+    margin-left: 0px;
 }
+
+.about .ctn h3
+{
+font-size: 30px;
+padding: 10px 0px 10px 0px;
+color:violet;
+flex: auto;
+text-align: justify;
+}
+
+.about .ctn p
+{
+    font-size: 15px;
+    padding: 2px 400px 10px 0px;
+    text-align: justify;
+color:rgba(0, 0, 0, 0.842);
+}
+
+  }
+
+@media (max-width: 1000px) 
+
+{
+    .heading
+    {
+       padding: 0px 5px 10px 8px;
+       font-size: 5px;
+    }
+    .heading h1{
+        font-size: 60px;
+        color: white;
+        padding: 0px 5px 10px 15px;
+        text-shadow:var(--text-shadow);
+    }
+    .card
+    {
+        margin:0px;
+        padding: 20px 30px 10px 30px;
+    }
+    .about .image img
+{
+    width: 100%;
+    padding: 20px px 10px 0px;
+    margin-left: 0px;
+}
+
+.about .ctn h3
+{
+font-size: 30px;
+padding: 10px 0px 10px 0px;
+color:violet;
+flex: auto;
+text-align: justify;
+}
+
+.about .ctn p
+{
+    font-size: 15px;
+    padding: 2px 400px 10px 0px;
+    text-align: justify;
+color:rgba(0, 0, 0, 0.842);
+}
+  
+}
+@media (max-width: 900px) 
+{
+    .heading
+    {
+       padding: 0px 5px 10px 8px;
+       font-size: 5px;
+    }
+    .heading h1{
+        font-size: 60px;
+        color: white;
+        padding: 0px 5px 10px 15px;
+        text-shadow:var(--text-shadow);
+    }
+    .card
+    {
+        margin:0px;
+        padding: 20px 30px 10px 30px;
+    }
+    .about .image img
+{
+    width: 100%;
+    padding: 20px px 10px 0px;
+    margin-left: 0px;
+}
+
+.about .ctn h3
+{
+font-size: 30px;
+padding: 10px 0px 10px 0px;
+color:violet;
+flex: auto;
+text-align: justify;
+}
+
+.about .ctn p
+{
+    font-size: 15px;
+    padding: 2px 400px 10px 0px;
+    text-align: justify;
+color:rgba(0, 0, 0, 0.842);
+}
+
+}
+
+
+
+ 
+
+@media (max-width: 750px)
+ {
+    .heading
+    {
+       padding: 0px 5px 10px 8px;
+       font-size: 5px;
+    }
+    .heading h1{
+        font-size: 60px;
+        color: white;
+        padding: 0px 5px 10px 15px;
+        text-shadow:var(--text-shadow);
+    }
+    .card
+    {
+        margin:0px;
+        padding: 20px 30px 10px 30px;
+    }
+    .about .image img
+{
+    width: 100%;
+    padding: 20px px 10px 0px;
+    margin-left: 0px;
+}
+
+.about .ctn h3
+{
+font-size: 30px;
+padding: 10px 0px 10px 0px;
+color:violet;
+flex: auto;
+text-align: justify;
+}
+
+.about .ctn p
+{
+    font-size: 15px;
+    padding: 2px 400px 10px 0px;
+    text-align: justify;
+color:rgba(0, 0, 0, 0.842);
+}
+
+    }
+ 
+
+
+
+@media (max-width: 500px)
+{
+    .heading
+    {
+       padding: 0px 5px 10px 8px;
+       font-size: 5px;
+    }
+    .heading h1{
+        font-size: 60px;
+        color: white;
+        padding: 0px 5px 10px 15px;
+        text-shadow:var(--text-shadow);
+    }
+    .card
+    {
+        margin:0px;
+        padding: 20px 30px 10px 30px;
+    }
+    .about .image img
+{
+    width: 100%;
+    padding: 20px px 10px 0px;
+    margin-left: 0px;
+}
+
+.about .ctn h3
+{
+font-size: 30px;
+padding: 10px 0px 10px 0px;
+color:violet;
+flex: auto;
+text-align: justify;
+}
+
+.about .ctn p
+{
+    font-size: 15px;
+    padding: 2px 400px 10px 0px;
+    text-align: justify;
+color:rgba(0, 0, 0, 0.842);
+}
+   
+
+.about .ctn .icon-ctn .icons span 
+{
+  font-size: 20px;
+  display:block;
+}
+
+.about .ctn .icon-ctn {
+  margin-top: 10px;
+  padding: 2px 400px 10px 0px;
+  flex-wrap:none;
+  gap: 1.5rem;
+  align-items:flex-start;
+}
+.about .ctn {
+  flex:0%;
+  text-align:center;
+  
+}
+.btn1 button {
+  background: rgb(0, 83, 128);
+  color: white;
+  border-radius: 5px;
+  width: 150px;
+  padding: 8px;
+  cursor: pointer;
+  border: 0;
+  font-weight: bold;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </style>
 </html>
